@@ -1,0 +1,1 @@
+Read me document for setting up EduMonsters Platfrom
