@@ -1,0 +1,7 @@
+id  
+content text 
+answers text 
+difficulty int 
+set_id int index
+created_by int 
+created_at datetime 

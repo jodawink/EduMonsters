@@ -1,0 +1,455 @@
+#stage
+{
+    -webkit-transform-origin:  0% 0%;
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-image-width: 0;
+
+    position: absolute; 
+    top: 0;
+    left:0;
+    /*image-rendering: pixelated;*/
+
+}
+
+.element{
+    -webkit-transform-origin:  0% 0%;
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+}
+
+body{
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    transform: translateZ(0px);
+    -ms-transform: translateZ(0px);/* IE 9 */
+    -moz-transform: translateZ(0px);/* Firefox */
+    -webkit-transform: translateZ(0px);/* Safari and Chrome */
+    -o-transform: translateZ(0px);/* Opera */
+    border: none;
+    border-image-width: 0;
+    line-height: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+* {padding: 0; margin: 0}
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+#topToolbar{
+    background-color: #f5fae4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #8d8d8d;
+    padding: 5px;
+    line-height: none;
+}
+
+#sideToolbar{
+    background-color: #f5fae4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid #8d8d8d;
+}
+
+#leftToolbar{
+    background-color: #f5fae4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #8d8d8d;
+    padding: 8px;
+}
+
+.none {
+    display: none;
+}
+
+#side-toolbar-navigation{
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.nav-bar-btn{
+    padding: 8px;   
+    margin: 0px;   
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    color: #818181;
+}
+
+.nav-bar-btn:hover{
+    background-color: #e3f7a5;
+    cursor: pointer;
+}
+
+.nav-bar-btn.active{
+    background-color: #f5fae4;
+    border-left: 1px solid #8d8d8d;
+    border-right: 1px solid #8d8d8d;
+    border-bottom: 1px solid #f5fae4;
+}
+
+.controls input[type='file']{
+    font-size: 11px;
+}
+
+.libraryItem{
+    width:92px;
+    height:92px;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid transparent;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.libraryItem.back:hover{
+    background-color: #eeeeee;
+}
+
+.libraryItem:hover{
+    border: 1px solid #bbed27;
+    cursor: pointer;
+}
+
+.libraryItem .libImg{
+    width:90px;
+    height:90px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+.libraryItem .libFooter{
+    position: absolute;
+    line-height: initial;
+    font-size: 12px;
+    bottom: 0px;
+    width: 90px;
+    margin-left: -5px;
+    height: 27px;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;     
+    margin: auto;
+    padding: 0px;
+    border: none;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.libFooter label{
+    line-height: 12px;
+    overflow-wrap: break-word;
+    width: 88px;
+}
+
+.libraryContent{
+    background-color: #f5fae4;
+    overflow-y: scroll;
+    padding-top: 10px;
+}
+
+#textUpdatePanel{
+    position: absolute;
+    z-index: 200;
+    display: none;
+
+    -webkit-box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.3);
+}
+
+#textUpdatePanel textarea{
+    width: 500px;
+    height: 100px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 16px;
+    display: inline;
+    clear: both;
+}
+
+#textUpdatePanel input {
+    display: inline-flex;
+}
+
+#textUpdatePanel .card-body{
+    padding: 0.5rem;
+}
+
+#contextMenu{
+    z-index: 10000; 
+    position: absolute; 
+    display: none; 
+    width: 158px; 
+    left: 50%;
+    top: 50%;
+}
+
+#contextMenu i{
+    font-size: 18px;
+}
+
+#contextMenu .dropdown-item{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+.content{
+    text-align: right;
+}
+
+.content label{
+    font-size: 14px;
+}
+
+.content div.big{
+    font-size: inherit;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.content div.big input {
+    width: 240px;  
+    line-height: normal;
+}
+
+.content div.big select {
+    width: 240px;
+    padding-top: 2px;
+}
+
+.content div.big input , .content div.big select{
+    height: 35px;
+}
+
+.content div.big label , .content div.small label {
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+.content div.big input[type=checkbox]{
+    width: 20px;
+    margin-right: 220px;
+    margin-left: 2px;
+}
+
+.content div.big input[type=checkbox]:focus{
+    box-shadow:none !important;
+}
+
+.content div.small{
+    font-size: inherit;
+    width: 160px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+div.inline-small label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content div.small input{
+    font-size: inherit;
+    width: 80px;
+}
+
+.content div.small input , .content div.small select{
+    height: 32px;
+}
+
+.content div.small input[type=checkbox]{
+    font-size: inherit;
+    width: 50px;
+}
+
+/**********************************/
+
+.content div.small-picker{
+    font-size: inherit;
+    width: 160px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+
+div.small-picker label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+
+.image-button{
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+}
+
+.image-button.active{
+    background-color: #9282ef;
+}
+
+.image-button:hover{
+    background-color: #cccccc;
+}
+
+#leftToolbar .image-button{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+
+.inline-small{
+    font-size: inherit;
+    width: 160px;
+    margin-top: 0px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.inline-small input{
+    font-size: inherit;
+    width: 60px;
+    display: inline;
+    height: 30px;
+    margin: 0px;
+}
+
+.input-group.big input {
+    width: auto !important;
+    float: none !important;
+    display: inline-block !important;
+}
+
+.input-group.big .input-group-btn{
+    display: inline-block !important;
+}
+
+
+/**********************************/
+.panel-body{
+    padding: 10px;
+}
+
+.dropdown-item:hover{
+    cursor: pointer;
+}
+
+/**********************************/
+.colorpicker-2x.colorpicker-with-alpha {
+    width: 272px;
+}
+
+.colorpicker-2x {
+    width: 250px;
+}
+
+.content div.big .colorpicker-element {
+    width: 240px;
+    display: inline-flex;
+}
+
+.content div.big .colorpicker-element input {
+    width: 150px;
+}
+
+.colorpicker-2x .colorpicker-swatch {
+    width: 26px;
+    height:26px;
+}
+
+.colorpicker-2x .colorpicker-swatch:nth-of-type(7n+0) {
+    margin-right: 6px;
+}
+
+.colorpicker-2x .colorpicker-saturation {
+    width: 200px;
+    height: 200px;
+}
+
+.colorpicker-2x .colorpicker-hue,
+.colorpicker-2x .colorpicker-alpha {
+    width: 30px;
+    height: 200px;
+}
+
+.colorpicker-2x .colorpicker-alpha,
+.colorpicker-2x .colorpicker-preview {
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+.colorpicker-2x .colorpicker-preview,
+.colorpicker-2x .colorpicker-preview div {
+    height: 30px;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.colorpicker-saturation .colorpicker-guide {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    margin: -5px 0 0 -5px;
+}
+/**************************************/
+
+label{
+    font-weight: 500;    
+}
+
+
+/***************************************************************/
+/****** DROP DOWN SUB MENU *******/
+
+#contextMenu .dropdown-item{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 

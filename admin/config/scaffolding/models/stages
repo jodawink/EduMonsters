@@ -1,0 +1,4 @@
+id 
+stage_name varchar 255
+required_questions int 
+created_at datetime 

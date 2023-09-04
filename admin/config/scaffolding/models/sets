@@ -1,0 +1,4 @@
+id 
+title varchar 510 
+created_by int 
+created_at datetime 

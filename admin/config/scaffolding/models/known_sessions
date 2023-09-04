@@ -1,0 +1,6 @@
+id primary
+user_id int index
+session_id varchar 36 index
+user_agent varchar 255
+valid_until bigint
+created_at datetime

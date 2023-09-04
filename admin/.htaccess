@@ -1,0 +1,45 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www.ontheways\.com
+RewriteRule ^(.*)$ http://ontheways.com/$1 [R=permanent,L]
+
+RewriteRule ^no-privileges$ no_privileges.php?%{QUERY_STRING}
+
+#RewriteRule ^fitness/?([0-9]+)?$ index.php?controller=index&action=category&cat=fitness&params=$1&%{QUERY_STRING}
+
+#single pages
+#RewriteRule ^about/?([0-9]+)?$ index.php?controller=index&action=about&params=$1&%{QUERY_STRING}
+#RewriteRule ^terms-of-use/?([0-9]+)?$ index.php?controller=index&action=terms_of_use&params=$1&%{QUERY_STRING}
+#RewriteRule ^privacy-policy/?([0-9]+)?$ index.php?controller=index&action=privacy_policy&params=$1&%{QUERY_STRING}
+#RewriteRule ^dmca-policy/?([0-9]+)?$ index.php?controller=index&action=dmca_policy&params=$1&%{QUERY_STRING}
+#RewriteRule ^disclaimer/?([0-9]+)?$ index.php?controller=index&action=disclaimer&params=$1&%{QUERY_STRING}
+#RewriteRule ^contact/?([0-9]+)?$ index.php?controller=index&action=contact&params=$1&%{QUERY_STRING}
+# \#\@\.
+
+RewriteRule ^login/?([0-9]+)?$ index.php?controller=authentication&action=login&params=$1&%{QUERY_STRING}
+RewriteRule ^register/?([0-9]+)?$ index.php?controller=authentication&action=register&params=$1&%{QUERY_STRING}
+RewriteRule ^logout/?([0-9]+)?$ index.php?controller=authentication&action=logout&params=$1&%{QUERY_STRING}
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+)$ index.php?controller=home&action=page&params=$2&%{QUERY_STRING}
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9-\+]+)$ index.php?controller=$1&action=$2&%{QUERY_STRING}
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9-]+)/([a-zA-Z0-9\+\-\_\/\#\@]+)$ index.php?controller=$1&action=$2&params=$3&%{QUERY_STRING}
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?controller=$1&action=main&%{QUERY_STRING}
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?controller=$1&action=main&%{QUERY_STRING}
+
+RewriteRule ^images/([a-zA-Z0-9\.\/,_-]+)$ public/images/$1
+RewriteRule ^img/([a-zA-Z0-9\.\/,_-]+)$ public/img/$1
+
+#<FilesMatch "\.(jpeg|jpg|png|JPEG|JPG)$">
+#    <IfModule mod_headers.c>
+#        SetEnvIf Origin "http(s)?://(www\.)?(google.com|staging.google.com|development.google.com|profile.mojtrener.mk|data.mojtrener.mk)$" AccessControlAllowOrigin=$0
+#        Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+#        Header merge Vary Origin
+#    </IfModule>
+#</FilesMatch>
+
+# Use PHP71 as default
+#AddHandler application/x-httpd-php71 .php
+#<IfModule mod_suphp.c>
+#    suPHP_ConfigPath /opt/php71/lib
+#</IfModule>

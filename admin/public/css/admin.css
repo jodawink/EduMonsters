@@ -1,0 +1,12 @@
+.emptyList {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    min-height: 200px; 
+     font-size: 16px;
+}
+
+.emptyList a {
+   margin-top: 10px;
+}

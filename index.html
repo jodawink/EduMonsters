@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>_TITLE</title>
+        <meta name="description" content="_DESCRIPTION">
+		
+	<!--//PWA BEGIN-->
+
+        <link rel="manifest" href="manifest.json" />
+        <meta name="theme-color" content="_COLOR" />
+        
+        <link href="assets/icons/icon-192x192.png" rel="icon" sizes="192x192" />
+        <link href="assets/icons/icon-512x512.png" rel="apple-touch-icon" sizes="512x512"  />
+        <link href="assets/icons/icon-512x512.png" rel="shortcut icon" sizes="512x512"  />
+
+        <!--//PWA END-->
+		
+        <link href="assets/css/style.css?v=1" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/fonts.css?v=1" rel="stylesheet" type="text/css"/>
+
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, minimal-ui">
+        <meta name="HandheldFriendly" content="true" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        
+        <meta property="og:title" content="_TITLE">
+        <meta property="og:description" content="_DESCRIPTION">
+        <meta property="og:image" content="_PREVIEW_IMAGE">
+        <meta property="og:url" content="_URL">
+        
+	<style> body{ background: #222222; }</style>  
+        <script>var _VERSION = 1;</script>
+		
+        <!--//SCRIPTS-BEGIN-->
+
+        <script src="config.js" type="application/javascript" ></script>
+
+        <script src="pixi.min.js" type="text/javascript"></script>
+        <script src="lib.min.js" type="text/javascript"></script>
+
+
+        <script src="app/system/app.js" type="text/javascript"></script>
+        <script src="app/system/style.js" type="text/javascript"></script>
+        <script src="app/system/loading_screen.js" type="text/javascript"></script>
+        <script src="app/system/rotate_layer.js" type="text/javascript"></script>
+        <script src="app/system/boot.js" type="text/javascript"></script>
+
+        <script src="assets/assets.js" type="text/javascript"></script>
+		
+	
+        
+        <!--//SCREENS-BEGIN-->
+
+        <script src="app/screens/home_screen.js" type="text/javascript"></script>
+        <script src="app/screens/game_screen.js" type="text/javascript"></script>
+	<script src="app/screens/code_screen.js" type="text/javascript"></script>
+	<script src="app/screens/fail_screen.js" type="text/javascript"></script>
+	<script src="app/screens/level_completed_screen.js" type="text/javascript"></script>
+	<script src="app/screens/challenge_completed_screen.js" type="text/javascript"></script>
+
+	<!--//SCREENS-END-->
+
+        <script src="app/monster.js" type="text/javascript"></script>
+        <script src="app/explosion.js" type="text/javascript"></script>
+        <script src="app/dust.js" type="text/javascript"></script>
+        <script src="app/header.js" type="text/javascript"></script>
+        
+
+	<!--//SCRIPTS-END-->
+	
+	<!--//INCLUDE-PWA-->
+
+    </head>
+
+    <body>
+
+        <!--FONTS-START-->
+
+	<p class="noselect" style="font-family: 'sf-pro-display-black'; color: transparent; z-index: -100;position: absolute;"> _DESCRIPTION </p>
+	<p class="noselect" style="font-family: 'sf-pro-display-regular'; color: transparent; z-index: -100;position: absolute;"> _DESCRIPTION </p>
+	<p class="noselect" style="font-family: 'sf-pro-text-bold'; color: transparent; z-index: -100;position: absolute;"> _DESCRIPTION </p>
+	<p class="noselect" style="font-family: 'sf-pro-text-regular'; color: transparent; z-index: -100;position: absolute;"> _DESCRIPTION </p>
+
+    <!--//FONTS-END-->
+
+        <div style="height: 200%; width:100% ;position: absolute; top: 0;left:0;z-index: -1">
+            &nbsp;
+        </div>
+
+
+    </body>
+
+</html>
