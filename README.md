@@ -57,6 +57,10 @@ The backend of the platform is written in PHP and requires a PHP web server. To 
 
 Some building tools in this project require Python to run. Make sure you have Python installed on your system to utilize these tools.
 
+- To create a build from the game you need to run the release.py script 
+``` py tools/release/release.py ```
+- To help the development of the UI of the game also a visual editor is included  , you can access the editor by visiting `http://localhost/edumonsters/editor`
+
 ## Contributing
 
 We welcome contributions from the open-source community! If you'd like to contribute to the project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
