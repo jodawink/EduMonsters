@@ -43,7 +43,7 @@ The backend of the platform is written in PHP and requires a PHP web server. To 
 
 2. Configure the backend settings in the `admin/config.php` file to match your server environment.
 
-3. Import the provided SQL schema file `backend/database.sql` into your database management system to set up the database schema.
+3. Import the provided SQL schema file `admin/schema.sql` into your database management system to set up the database schema.
 
 4. Start your PHP server.
 
