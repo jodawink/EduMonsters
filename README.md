@@ -1,1 +1,66 @@
-Read me document for setting up EduMonsters Platfrom
+# Educational Game Platform - HTML5 Quiz Adventure
+
+![Game Preview](assets/images/logo.png)
+
+Welcome to the Educational Game Platform, an interactive HTML5 educational game where you'll embark on a quiz adventure, battling monsters of different strengths with your knowledge. This platform also includes a robust backend administration panel for creating new quizzes and organizing questions.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Backend Setup](#backend-setup)
+- [Building Tools](#building-tools)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The Educational Game Platform is designed to provide an engaging and educational experience. Test your knowledge, defeat monsters, and explore a world of learning. The included backend administration panel makes it easy for educators to customize quizzes and questions.
+
+## Features
+
+- **Quiz Adventure**: Engage in an exciting quiz-based adventure.
+- **Monsters**: Battle monsters of varying strengths based on your answers.
+- **Knowledge Enhancement**: Learn new facts and information with each question.
+- **Backend Administration Panel**: Create and manage quizzes with ease.
+
+## Getting Started
+
+To run the Educational Game Platform, you'll need a local PHP server (WAMP, MAMP, LAMP) and Python for some building tools. Follow these steps:
+
+1. Start your local PHP server and ensure it's running.
+- [WAMP](https://www.wampserver.com/en/) Windows
+- [MAMP](https://www.mamp.info/) MacOS
+- [LAMP](https://ubuntu.com/server/docs/lamp-applications) Linux
+
+2. Access the platform by visiting `http://localhost/edumonsters/index.html` in your web browser.
+
+## Backend Setup
+
+The backend of the platform is written in PHP and requires a PHP web server. To set up the backend:
+
+1. Ensure you have PHP installed on your server.
+
+2. Configure the backend settings in the `admin/config.php` file to match your server environment.
+
+3. Import the provided SQL schema file `backend/database.sql` into your database management system to set up the database schema.
+
+4. Start your PHP server.
+
+5. Access the administration panel by visiting `http://localhost/edumonsters/admin` in your browser.
+
+6. The login credentials are:
+- username: admin
+- password: admin
+
+## Building Tools
+
+Some building tools in this project require Python to run. Make sure you have Python installed on your system to utilize these tools.
+
+## Contributing
+
+We welcome contributions from the open-source community! If you'd like to contribute to the project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
