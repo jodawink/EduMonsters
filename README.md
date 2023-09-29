@@ -68,3 +68,9 @@ We welcome contributions from the open-source community! If you'd like to contri
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Files Disclaimer
+
+This project utilizes specific audio files that have been purchased for its functionality. These audio files are not included in the open-source code and must be sourced independently by anyone planning to use this codebase.
+
+Please note that it is the responsibility of users to ensure they have the necessary rights and licenses for any audio files they choose to integrate into the project. Ensure compliance with all relevant copyright and licensing agreements before using or distributing any audio content in association with this project.
