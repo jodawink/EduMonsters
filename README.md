@@ -17,6 +17,8 @@ Welcome to the Educational Game Platform, an interactive HTML5 educational game 
 
 The Educational Game Platform is designed to provide an engaging and educational experience. Test your knowledge, defeat monsters, and explore a world of learning. The included backend administration panel makes it easy for educators to customize quizzes and questions.
 
+To try a demo quiz, go to: https://edumonsters.net/  Click 'Student', enter code: qnux, then click 'Enter'   
+
 ## Features
 
 - **Quiz Adventure**: Engage in an exciting quiz-based adventure.
