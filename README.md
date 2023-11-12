@@ -2,6 +2,8 @@
 
 ![Game Preview](assets/images/logo.png)
 
+![image](https://github.com/jodawink/EduMonsters/assets/6666537/afd70e9f-1051-42e3-ad90-a94de7bd8027)
+
 Welcome to EduMonsters, an interactive HTML5 educational game where you'll embark on a quiz adventure, battling monsters of different strengths with your knowledge. This platform also includes a robust backend administration panel for creating new quizzes and organizing questions.
 
 ## Table of Contents
