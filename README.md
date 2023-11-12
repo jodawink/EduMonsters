@@ -2,7 +2,7 @@
 
 ![Game Preview](assets/images/logo.png)
 
-Welcome to the Educational Game Platform, an interactive HTML5 educational game where you'll embark on a quiz adventure, battling monsters of different strengths with your knowledge. This platform also includes a robust backend administration panel for creating new quizzes and organizing questions.
+Welcome to EduMonsters, an interactive HTML5 educational game where you'll embark on a quiz adventure, battling monsters of different strengths with your knowledge. This platform also includes a robust backend administration panel for creating new quizzes and organizing questions.
 
 ## Table of Contents
 - [Introduction](#introduction)
