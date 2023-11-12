@@ -2,7 +2,7 @@
 
 ![Game Preview](assets/images/logo.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;![image](https://github.com/jodawink/EduMonsters/assets/6666537/afd70e9f-1051-42e3-ad90-a94de7bd8027) &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ![image](https://github.com/jodawink/EduMonsters/assets/6666537/62670dd7-6309-46ca-bff0-d23ad6aa134f) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ![image](https://github.com/jodawink/EduMonsters/assets/6666537/501f6066-5a5b-4e2d-a132-bc9c27f2fdf8)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;![image](https://github.com/jodawink/EduMonsters/assets/6666537/afd70e9f-1051-42e3-ad90-a94de7bd8027) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ![image](https://github.com/jodawink/EduMonsters/assets/6666537/62670dd7-6309-46ca-bff0-d23ad6aa134f) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ![image](https://github.com/jodawink/EduMonsters/assets/6666537/501f6066-5a5b-4e2d-a132-bc9c27f2fdf8)
 
 
 
